@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install git build-essential cmake automake libtool autoconf libuv1-dev
+apt update && apt-get install git build-essential cmake automake libtool autoconf libuv1-dev
 git clone https://github.com/scala-network/xlarig
 mkdir xlarig/build && cd xlarig/build
 cmake ..
